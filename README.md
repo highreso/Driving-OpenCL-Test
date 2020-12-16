@@ -1,11 +1,24 @@
-// 以下から引用
-// https://rocmdocs.amd.com/en/latest/Programming_Guides/Opencl-programming-guide.html#example
+# amd1dlでOpenACCでGPU駆動させる
+## 概要
+amd1dlインスタンスでOpenACCで実際にGPUを駆動させることを目指す
+ROCm + OpenCLをOpenACCから動作させるのが最終目標
+
+## 動いたC++コード
+https://rocmdocs.amd.com/en/latest/Programming_Guides/Opencl-programming-guide.html#example
+
+export ROCMOPENCL=/opt/rocm/opencl/
+
+```cpp
+//
+// Copyright (c) 2010 Advanced Micro Devices, Inc. All rights reserved.
+//
+
 // A minimalist OpenCL program.
 
 #include <CL/cl.h>
 #include <stdio.h>
 
-#define NWITEMS 100000000
+#define NWITEMS 512
 // A simple memset kernel
 const char *source =
 "kernel void memset(   global uint *dst )             \n"
@@ -84,3 +97,22 @@ int main(int argc, char ** argv)
 
   return 0;
 }
+```
+を`Template.cpp`として保存
+
+g++ -o Template.o -c Template.cpp -I$ROCMOPENCL/include
+
+g++ -o Template Template.o -lOpenCL -L$ROCMOPENCL/lib/x86_64
+
+./Template
+
+
+## PyOpenCL入れてみた
+pip install pyopencl
+export PYOPENCL_COMPILER_OUTPUT=1
+
+
+
+##
+dpkg -l | grep opencl
+ldconfig -p
