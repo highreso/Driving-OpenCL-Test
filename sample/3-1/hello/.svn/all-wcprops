@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/marketing/!svn/ver/1898/PR/OpenCL/Book/1.2/sample/3-1/hello
+END
+hello.cl
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/marketing/!svn/ver/1881/PR/OpenCL/Book/1.2/sample/3-1/hello/hello.cl
+END
+hello.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/marketing/!svn/ver/1881/PR/OpenCL/Book/1.2/sample/3-1/hello/hello.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/marketing/!svn/ver/1895/PR/OpenCL/Book/1.2/sample/3-1/hello/Makefile
+END

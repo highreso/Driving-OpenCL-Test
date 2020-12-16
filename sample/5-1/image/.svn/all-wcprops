@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/marketing/!svn/ver/1899/PR/OpenCL/Book/1.2/sample/5-1/image
+END
+image.cl
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/marketing/!svn/ver/1881/PR/OpenCL/Book/1.2/sample/5-1/image/image.cl
+END
+image.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/marketing/!svn/ver/1881/PR/OpenCL/Book/1.2/sample/5-1/image/image.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/marketing/!svn/ver/1895/PR/OpenCL/Book/1.2/sample/5-1/image/Makefile
+END

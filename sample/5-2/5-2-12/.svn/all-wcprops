@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/marketing/!svn/ver/1899/PR/OpenCL/Book/1.2/sample/5-2/5-2-12
+END
+stock_array_4.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/marketing/!svn/ver/1881/PR/OpenCL/Book/1.2/sample/5-2/5-2-12/stock_array_4.txt
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/marketing/!svn/ver/1881/PR/OpenCL/Book/1.2/sample/5-2/5-2-12/main.cpp
+END
+moving_average_vec4.cl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/marketing/!svn/ver/1881/PR/OpenCL/Book/1.2/sample/5-2/5-2-12/moving_average_vec4.cl
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/marketing/!svn/ver/1895/PR/OpenCL/Book/1.2/sample/5-2/5-2-12/Makefile
+END
