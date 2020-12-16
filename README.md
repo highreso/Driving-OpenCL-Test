@@ -2,6 +2,7 @@
 ## 概要
 amd1dlインスタンスでOpenACCで実際にGPUを駆動させることを目指す
 ROCm + OpenCLをOpenACCから動作させるのが最終目標
+`user@jupyterlab-test`インスタンスで検証中
 
 ## 動いたC++コード
 https://rocmdocs.amd.com/en/latest/Programming_Guides/Opencl-programming-guide.html#example
